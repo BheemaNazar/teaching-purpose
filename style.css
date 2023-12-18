@@ -1,0 +1,43 @@
+.bg-color{
+	background-color: #c7a32c;
+}
+.bg-color2{
+	background-color: #1a76ed;
+}
+.bg-color3{
+	background-color:#060826 ;
+	
+}
+.bg-color4{
+	background-color:#03062e;
+}
+.about-section p{
+	font-size: 14px;
+}
+.footer-section p{
+	font-size: 14px;	
+}
+.footer-section img{
+	height: 100px;
+	margin: 60px 100px;
+}
+@media(max-width: 580px){
+	.about-section .col-lg-3 img{
+		margin-left: 100px;
+		margin-right: 100px;
+	}
+}
+@media(max-width: 580px){
+	.footer-section .col-lg-3 button{
+		margin-left: 200px;
+		margin-right: 200px;
+		
+	}
+}
+@media(max-width: 580px){
+	.footer-section .col-lg-9 img{
+		margin-left: 200px;
+		margin-right: 200px;
+		width: 100px;
+	}
+}
